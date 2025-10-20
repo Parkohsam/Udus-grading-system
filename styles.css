@@ -9,8 +9,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
-
 .container {
     width: 40%;
     height: 80vh;
@@ -24,7 +24,6 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     justify-self: center;
-
 }
 
 #showResult {
@@ -72,7 +71,6 @@ body {
 }
 
 .type {
-    justify-self: center;
     padding-top: 160px;
     text-align: center;
 
@@ -82,7 +80,7 @@ body {
 
 @media (min-width: 360px) and (max-width: 480px) {
     .container {
-        width: 70%;
+        width: 60%;
         height: 70vh;
         margin-top: 120px;
     }
@@ -93,7 +91,7 @@ body {
     }
 
     .type {
-        padding-top: 70px;
+        padding: 70px 20px 0 20px;
     }
 }
 
