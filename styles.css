@@ -80,8 +80,8 @@ body {
 
 @media (min-width: 360px) and (max-width: 480px) {
     .container {
-        width: 60%;
-        height: 70vh;
+        width: 70%;
+        height: 50vh;
         margin-top: 120px;
     }
 
@@ -92,6 +92,7 @@ body {
 
     .type {
         padding: 70px 20px 0 20px;
+        justify-content: center;
     }
 
     #showResult{
