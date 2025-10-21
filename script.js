@@ -3,7 +3,7 @@ const checkGrade = () => {
         showResult.innerHTML = 'Fill in your CGPA 🙄'
     }
     else if (grading.value > 5.0){
-        showResult.innerHTML = "value can't be higher than 5.0"
+        showResult.innerHTML = "Enter a valid CGPA😒"
     }
     else if (grading.value >= 4.50 && grading.value <= 5.0) {
         showResult.innerHTML = "First Class🥰"
